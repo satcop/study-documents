@@ -14,3 +14,8 @@ docker run -d --name jenkins2023 --restart=on-failure -p 18080:8080 -v /var/jenk
 docker exec -it jenkins2023 /bin/bash
 
 
+* 참고
+docker pull jenkins/jenkins:lts-jdk11
+
+
+
